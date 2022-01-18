@@ -32,10 +32,10 @@
   line-height: 1.5em;
 }
 .recipe-list .card a {
-  color: #555;
+  color: #fff;
   text-decoration: none;
   display: block;
-  background: #e2e2e2;
+  background: #58249c;
   font-size: 0.9em;
   width: 100px;
   text-align: center;
@@ -43,4 +43,13 @@
   padding: 8px;
   border-radius: 4px;
   margin: 20px auto 0;
+  transition: all 0.3s;
+}
+.recipe-list .card.dark {
+  background: #555;
+}
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+  color: #e4e4e4;
 }
